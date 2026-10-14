@@ -2,72 +2,102 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
-        <meta charset="URL-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,
     initial-scale=1.0">
-        <title>Lynne Beauty Saloon</title>
+        <title>LYNNE BEAUTY SALON</title>
 
     </head>
     <body>
+
+
          <!--Navigation bar-->
          <header>
-            <h2 class="logo">Lynne Beauty Saloon</h2>
+            <h2 class="logo">LYNNE BEAUTY SALON</h2>
             <nav>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
+                <a href="saloon%20web.html" aria-label="Home" title="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7M5.5 9v12h13V9M9 21v-7h6v7"/></svg></a>
+                <a href="about.html" aria-label="About" title="About"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 21c.5-4 3-6 7-6s6.5 2 7 6"/></svg></a>
+                <a href="services.html" aria-label="Services" title="Services"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="m8.2 8.2 12.3 12.3M8.2 15.8 20.5 3.5"/></svg></a>
+                <a href="contact.html" aria-label="Contact" title="Contact"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3H4.5A1.5 1.5 0 0 0 3 4.5C3 13.6 10.4 21 19.5 21a1.5 1.5 0 0 0 1.5-1.5V17l-5-2-1.5 2a14 14 0 0 1-5.5-5.5l2-1.5-2-5Z"/></svg></a>
             </nav>
          </header>
+         <!--Salon image banner-->
+         <section class="hero" role="img" aria-label="Interior of Lynne Beauty Saloon"></section>
          <!--Home section-->
-         <section id="home" class="hero">
-            <h1>Welcome to Lynne Beauty Saloon</h1>
+         <section id="home" class="welcome">
+            <h1>WELCOME TO LYNNE BEAUTY SALON</h1>
+            <P>The best salon in Maseno for Hair,Dreadlocks,Nails and Hair cut</P>
             <p>Your one-stop destination for all your beauty needs,
                 your beauty, our passion</p>
+                <P>Full service mens and womens hair salom, barber,beuty parlor and spa in the heart of Maseno,skilled proffesionals & relaxing enviroment</P>
 
-            <button id="bookBTN" class="button">
-                Book an appointment
-             </button>
-            <p id="message"></p>
 
-         </section>
-         <!--about section-->
-         <section id="about">
+           <a href="booking.html"id="bookBTN" class="button">Book an appointment</a>
+           <a href="services.html" class="button secondary-button">View all services</a>
+
+             </section>
+             <!--about section-->
+                
+             <section id="about">
             <h2>About us</h2>
             <P>At Lynne Beauty saloon,we help you look and feel beautiful.
                 We offer proffessional hair styling and beauty services
                  in a friendly and welcoming enviroment.
             </P>
+
          </section>
          <!--services section-->
          <section id="services">
-            <h2>Our Services</h2>
-            <div class="gallery">
-            <img src="images/hairstyle.jpg" alt="beatiful hairstyle">
-            <img src="images/hairstyles.jpg" alt="beautiful ones">
-            <img src="images/nail.avif" alt="beautiful nails">
-            <img src="images/wig.avif" alt="beautiful wigs">
-            <img src="images/makeup.jpg" alt="beautiful makeup">
-            <img src="images/makeuptools.jpg" alt="beautiful cosmetics">
-            <p>Braiding</p>
-            <p>Hair styling</p>
-            <p>Hair treatment</p>
-            <p>Wig instalation</p>
-            <p>Re-touch</p>
-            <p>makeup</p>
-            <p>nails arts</p>
+                    <h2>Salon Services</h2>
+                    <p>Our skilled proffesionals take time to understand and meet your need.We offer the following salon services </p>
+                    <div class="gallery">
+                    <img src="images/hairstyle.jpg" alt="beatiful hairstyle">
+                    <img src="images/hairstyles.jpg" alt="beautiful ones">
+                    <img src="images/nail.avif" alt="beautiful nails">
+                    <img src="images/wig.avif" alt="beautiful wigs">
+                    <img src="images/makeup.jpg" alt="beautiful makeup">
+                    <img src="images/makeuptools.jpg" alt="beautiful cosmetics">
+                       <p>Braiding & Cornrows</p>
+                      <p>Hair styling</p>
+                        <p>Hair treatment</p>
+                         <p>Wig instalation</p>
+                         <p>Dread Lock Services</p>
+                        <p>Makeup</p>
+                         <p>Nails arts</p>
+                         <p>Manicure</p>
+                         <p>Pedicure</p>
+                         <p>Eyelash extensions</p>
+                         <p>Weaving & Crochets</p>
+               </div>
+
+         </section>
+         <section class="service-video-section" aria-labelledby="salon-video-title">
+            <h2 id="salon-video-title">See Our Salon</h2>
+            <div class="branded-video">
+                <video controls preload="metadata">
+                    <source src="images/video.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+                <div class="video-brand" aria-label="Lynne Beauty Salon, Maseno behind Sairam Supermarket">
+                    <strong>Lynne Beauty Salon</strong>
+                    <span>Maseno, behind Sairam Supermarket</span>
+                </div>
             </div>
          </section>
             <!--contact section-->
             <section id="contact">
             <h2>Contact us</h2>
-                <p>Phone: +254 798973678</p>
-                <p>Email: lynne3117@glowbeautysaloon.com</p>
-                <p>Location:Migori</p>
-                <a href="tel:0797983678">
+                <p>Phone: 0718790166</p>
+                <p>Email: linnetatieno3117@gmail.com</p>
+                <p>Location: Maseno, behind Sairam Supermarket</p>
+                <h3>Opening hours</h3>
+                <p>Monday–Saturday: 8:00 AM–8:00 PM</p>
+                <p>Sunday: 11:00 AM–5:00 PM</p>
+                <a href="tel:+254718790166">
                     Call to book an appointment
                 </a>
             </section>
+
 
          <!--footer section-->
             <footer>
@@ -76,6 +106,12 @@
             </footer>
 
             <script src="script.js"></script>
+            <a class="whatsapp-chat" href="https://wa.me/254718790166" target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat" title="Open WhatsApp chat" onclick="return confirm('Open chat on WhatsApp?');">
+                <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a12.8 12.8 0 0 0-11 19.3L3.3 29l6.9-1.8A12.8 12.8 0 1 0 16 3Zm0 23.3c-2 0-4-.5-5.7-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.5A10.1 10.1 0 1 1 16 26.3Zm5.6-7.6c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.4 8.4 0 0 1-2.5-1.5 9.4 9.4 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.7l.5-.6.3-.6c.1-.2 0-.4 0-.6l-1-2.3c-.3-.6-.6-.5-.8-.5h-.7c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.3a11.6 11.6 0 0 0 4.5 4c.6.3 1.1.5 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.9-.8 2.2-1.5.3-.7.3-1.3.2-1.5s-.3-.3-.6-.5Z"/></svg>
+            </a>
+            <a class="call-button" href="tel:+254718790166" aria-label="Call Lynne Beauty Salon" title="Call Lynne Beauty Salon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3H4.5A1.5 1.5 0 0 0 3 4.5C3 13.6 10.4 21 19.5 21a1.5 1.5 0 0 0 1.5-1.5V17l-5-2-1.5 2a14 14 0 0 1-5.5-5.5l2-1.5-2-5Z"/></svg>
+            </a>
 
             
         </body>

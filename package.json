@@ -1,0 +1,25 @@
+{
+  "name": "linet-web-solutions",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000L\u0000y\u0000n\u0000n\u0000e\u0000 \u0000B\u0000e\u0000a\u0000u\u0000t\u0000y\u0000\r\u0000 \u0000#\u0000 \u0000b\u0000e\u0000a\u0000u\u0000t\u0000y\u0000_\u0000s\u0000h\u0000o\u0000p\u0000\r\u0000 \u0000",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linnetatieno3117-stack/lynne_beauty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/linnetatieno3117-stack/lynne_beauty/issues"
+  },
+  "homepage": "https://github.com/linnetatieno3117-stack/lynne_beauty#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}
